@@ -1,0 +1,31 @@
+// EMAIL
+.footer__form--box {
+  margin-left: auto;
+}
+.footer__form {
+  display: flex;
+  margin-top: 20px;
+}
+.footer__form--input {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  outline: none;
+
+  padding-left: 15px;
+  width: 358px;
+  height: 50px;
+
+  transition: transform, text-shadow, box-shadow, border, var(--transition-animation);
+  background-color: var(--box-color);
+  color: var(--foot-icon-color);
+
+  &:hover,
+  &:focus {
+    border: 1px solid var(--accent-color);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    transform: scale(1.01);
+    color: var(--foot-icon-color);
+  }
+}

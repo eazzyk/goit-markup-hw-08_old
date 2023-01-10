@@ -1,0 +1,40 @@
+.port__img--box {
+  position: relative;
+  overflow: hidden;
+}
+
+.port__link:hover .port__overlay {
+  transform: translateY(0%);
+}
+.port__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transform: translateY(101%);
+  transition: translate, color, background-color, var(--transition-animation);
+
+  background-color: var(--port-pic-overlay-color);
+
+  &:before {
+    display: inline-block;
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+
+    background-color: var(--overlay-color);
+  }
+}
+.port__overlay--text {
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: var(--background-white-color);
+  padding: 63px 24px;
+  margin: 0;
+}

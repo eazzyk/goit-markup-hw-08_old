@@ -1,0 +1,31 @@
+:root {
+  --accent-color: #2196f3;
+  --mainhead-color: #212121;
+  --maintext-color: #757575;
+  --box-color: #2f303a;
+  --background-white-color: #ffffff;
+  --section-grey-color: #f5f4fa;
+  --black-color: #000000;
+  --overlay-color: rgba(47, 48, 58, 0.8);
+  --shadow-color: rgba(0, 0, 0, 0.25);
+  --shadow-color-secondary: rgba(0, 0, 0, 0.15);
+  --team-soc-color: #afb1b8;
+  --foot-icon-color: rgba(255, 255, 255, 0.6);
+  --soc-links-background-color: rgba(255, 255, 255, 0.1);
+  --port-descr-color: #eeeeee;
+  --port-pic-overlay-color: rgba(33, 150, 243, 0.9);
+  --transition-animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: var(--mainhead-color);
+  background-color: var(--background-white-color);
+}
